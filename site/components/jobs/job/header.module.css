@@ -1,0 +1,12 @@
+.backgroundImage {
+  width: 100%;
+  backdrop-filter: blur(3px);
+  background: url("../../../public/images/bg-header.png");
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

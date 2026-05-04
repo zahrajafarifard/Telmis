@@ -1,0 +1,47 @@
+/* Wrapper div */
+.buttonYellow {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50px;
+  background-color: #ffda8a;
+  color: black;
+  text-align: center;
+}
+.button {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50px;
+  background-color: #a60014;
+  color: white;
+  text-align: center;
+}
+
+/* Hover effect span */
+.button-hover-effect {
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  right: 0;
+  width: 160%;
+  height: 20rem;
+  transition: all 0.7s;
+  opacity: 0;
+  transform: scale(0);
+  border-radius: 50%;
+  background: linear-gradient(to right, #c4161c, #c4161c, #600b0e);
+}
+
+.button-hover-effect-text {
+  position: relative;
+  z-index: 20;
+}
+
+/* Hover effect activation */
+.button:hover .button-hover-effect {
+  opacity: 1;
+  transform: scale(1.5);
+}
+.buttonYellow:hover .button-hover-effect {
+  opacity: 1;
+  transform: scale(1.5);
+}

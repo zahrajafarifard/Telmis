@@ -1,0 +1,23 @@
+.hiddenScrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+  /* For Webkit-based browsers (Chrome, Safari, etc.) */
+}
+.hiddenScrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollContainer {
+  white-space: nowrap;
+  cursor: grab;
+  display: flex;
+  user-select: none;
+}
+
+.scrollContainer:active {
+  cursor: grabbing;
+}
+
+.scrollContent {
+  display: flex;
+}

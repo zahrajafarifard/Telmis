@@ -1,0 +1,123 @@
+/* Wrapper div */
+.red-button-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50px;
+  background-color: #a60014;
+  margin: 2rem 0 0 auto;
+  width: fit-content;
+}
+
+@media (max-width: 1000px) {
+  .red-button-container {
+    align-self: center;
+  }
+}
+
+.red-button-hover-effect {
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  right: 0;
+  width: 20rem;
+  height: 20rem;
+  transition: all 0.7s;
+  opacity: 0;
+  transform: scale(0);
+  border-radius: 50%;
+  background: linear-gradient(to right, #c4161c, #c4161c, #600b0e);
+}
+
+.red-button-container:hover .red-button-hover-effect {
+  opacity: 1;
+  transform: scale(1.5);
+}
+
+.red-button-text {
+  position: relative;
+  z-index: 20;
+  color: white;
+  font-size: 1.125rem;
+  width: fit-content;
+  padding: 0.75rem 3.5rem;
+  border-radius: 50px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 690px) {
+  .red-button-text {
+    font-size: 1rem;
+  }
+}
+/* /////////////////////////////////////////////// */
+
+.red-link-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50px;
+  background-color: #c4161c;
+}
+
+.red-link-hover-effect {
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  right: 0;
+  width: 20rem;
+  height: 20rem;
+  transition: all 0.7s;
+  opacity: 0;
+  transform: scale(0);
+  border-radius: 50%;
+  background: linear-gradient(to right, #c4161c, #c4161c, #600b0e);
+}
+
+.red-link-container:hover .red-link-hover-effect {
+  opacity: 1;
+  transform: scale(1.5);
+}
+
+.red-link-text {
+  color: white;
+  font-size: 1.125rem;
+  text-align: center;
+  width: fit-content;
+  border-radius: 50px;
+  padding: 0.75rem 3.5rem;
+  position: relative;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1270px) {
+  .red-link-text {
+    font-size: 1rem;
+    padding: 0.75rem 2.25rem;
+  }
+}
+
+@media (max-width: 790px) {
+  .red-link-text {
+    padding: 0.5rem 1.5rem;
+  }
+}
+
+@media (max-width: 690px) {
+  .red-link-text {
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .red-link-text {
+    font-size: 15px;
+  }
+}
+
+/* /////////////////////////////////////////////////////////////// */

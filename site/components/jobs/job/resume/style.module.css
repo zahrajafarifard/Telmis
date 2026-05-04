@@ -1,0 +1,15 @@
+.customProgress::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 100px;
+  }
+  
+  .customProgress::-webkit-progress-value {
+    background-color: #A60014;
+    border-radius: 100px;
+  }
+  
+  .customProgress::-moz-progress-bar {
+    background-color: #A60014;
+    border-radius: 100px;
+  }
+  

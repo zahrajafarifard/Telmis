@@ -1,0 +1,49 @@
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(80px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slideUpAnimation {
+  opacity: 0;
+  animation: slideUp 0.9s ease-out forwards;
+}
+.delay0 {
+  animation-delay: 0s;
+}
+
+.delay1 {
+  animation-delay: 0.8s;
+}
+
+.delay2 {
+  animation-delay: 1.6s;
+}
+
+.delay3 {
+  animation-delay: 2s;
+}
+.delay4 {
+  animation-delay: 2.4s;
+}
+.delay5 {
+  animation-delay: 2.8s;
+}
+
+@media (max-width: 630px) {
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

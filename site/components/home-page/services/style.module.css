@@ -1,0 +1,35 @@
+.slideUpAnimation {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 0.9s ease, transform 1.2s ease;
+}
+
+.slideUpAnimation.delayText {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0s;
+}
+.slideUpAnimation.delay1 {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.3s;
+}
+
+.slideUpAnimation.delay2 {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.7s;
+}
+
+.slideUpAnimation.delay3 {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 1s;
+}
+
+
+
+
+
+
+

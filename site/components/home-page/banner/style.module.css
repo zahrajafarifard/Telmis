@@ -1,0 +1,26 @@
+.bg {
+  background: url("../../../public/images/banner12.png");
+  background-size: cover;
+  background-position: left;
+  background-blend-mode: multiply;
+  mix-blend-mode: multiply;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1400px) {
+  .bg {
+    background: url("../../../public/images/banner12.png");
+
+    background-position: center;
+  }
+}
+
+@media (max-width: 690px) {
+  .bg {
+    background: url("../../../public/images/banner-700.png");
+    height: 75vh;
+
+    background-position: top;
+    background-size: cover;
+  }
+}

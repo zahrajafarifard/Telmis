@@ -1,0 +1,14 @@
+.textColor {
+    background: var(--2, linear-gradient(90deg, #c4161c 0%, #600b0e 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+  /* .textT {
+    color: rgb(199, 17, 17); 
+  } */
+  
+ 
+  
