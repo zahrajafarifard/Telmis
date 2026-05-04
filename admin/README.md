@@ -83,19 +83,6 @@ admin/
 - `npm run build` — Create production build
 - `npm run eject` — Eject from Create React App (irreversible)
 
-## Testing
-
-```bash
-npm test
-```
-
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
 ## Performance
 
 The admin panel includes optimized code splitting and lazy loading for better performance.
@@ -107,7 +94,3 @@ Tailwind CSS is configured for responsive design. Customize the configuration in
 ## Author
 
 **Zahra Jafarifard**
-
-## License
-
-ISC

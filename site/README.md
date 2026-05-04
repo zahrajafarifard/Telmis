@@ -96,22 +96,6 @@ Next.js provides automatic optimization including:
 - Font optimization
 - Static generation and incremental static regeneration
 
-## Build Output
-
-The build is optimized for production with minimal bundle size. Images are automatically optimized for different devices.
-
-## Deployment
-
-The application can be deployed to:
-
-- Vercel (recommended for Next.js)
-- Docker containers
-- Traditional Node.js hosting
-
 ## Author
 
 **Zahra Jafarifard**
-
-## License
-
-ISC

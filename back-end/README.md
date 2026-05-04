@@ -108,7 +108,3 @@ back-end/
 ## Author
 
 **Zahra Jafarifard**
-
-## License
-
-ISC

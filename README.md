@@ -118,30 +118,9 @@ The backend uses MySQL with Sequelize ORM. Database migrations are included for 
 
 For database configuration, see the [Backend README](back-end/README.md).
 
-## Deployment
-
-Each application can be deployed independently:
-
-- **Backend**: Traditional Node.js hosting, Docker, or cloud platforms (AWS, Heroku)
-- **Admin Panel**: Traditional hosting or containerized deployment
-- **Public Website**: Vercel (recommended for Next.js), Docker, or traditional hosting
-- **User Panel**: Vercel (recommended for Next.js), Docker, or traditional hosting
-
 ## Development
 
 For detailed setup instructions for each project, refer to the README files in their respective folders.
-
-## Contributing
-
-When contributing, ensure:
-
-- Code follows the existing style and conventions
-- Changes are tested before submitting
-- Documentation is updated as needed
-
-## License
-
-ISC
 
 ## Author
 
